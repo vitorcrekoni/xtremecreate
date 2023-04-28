@@ -1,0 +1,993 @@
+/* -------------------------------------------------------------- /*
+  Theme Name     : Xtreme Create v3.0     2018                   :
+                    Antigo Completo Create
+                    Antigo The Envato
+Theme Url        : www.xtremecreate.blogspot.com.br              :
+Data da Criaçao  : 14/10/12                                      :
+Cores            : Azul,Preto,Branco                             :
+Name Programador :  Vitor Crekoni                                :
+Name Designer    : CR3KON1                                       :
+-----------------------------------------------------------------:
+Disponibilizado  : Download OFF                                  :
+para             : Download OFF                                  :
+Download         : OFF                                           :
+-----------------------------------------------------------------:
+Copia Ai KKKKKKK Nuuuubada NAO SABE CRIAR
+/* -------------------------------------------------------------- */
+/* Variable definitions
+====================
+<Variable name="bgcolor" description="Page Background Color"
+type="color" default="#fff" value="#ffffff">
+<Variable name="textcolor" description="Text Color"
+type="color" default="#333" value="#333333">
+<Variable name="linkcolor" description="Link Color"
+type="color" default="#58a" value="#5588aa">
+<Variable name="pagetitlecolor" description="Blog Title Color"
+type="color" default="#666" value="#666666">
+<Variable name="descriptioncolor" description="Blog Description Color"
+type="color" default="#999" value="#999999">
+<Variable name="titlecolor" description="Post Title Color"
+type="color" default="#c60" value="#cc6600">
+<Variable name="bordercolor" description="Border Color"
+type="color" default="#ccc" value="#cccccc">
+<Variable name="sidebarcolor" description="Sidebar Title Color"
+type="color" default="#999" value="#999999">
+<Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#666" value="#666666">
+<Variable name="visitedlinkcolor" description="Visited Link Color"
+type="color" default="#999" value="#999999">
+<Variable name="bodyfont" description="Text Font"
+type="font" default="normal normal 100% Georgia, Serif" value="normal normal 100% Georgia, Serif">
+<Variable name="headerfont" description="Sidebar Title Font"
+type="font"
+default="normal normal 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif" value="normal normal 78% &#39;Trebuchet MS&#39;,Trebuchet,Arial,Verdana,Sans-serif">
+<Variable name="pagetitlefont" description="Blog Title Font"
+type="font"
+default="normal normal 200% Georgia, Serif" value="normal normal 200% Georgia, Serif">
+<Variable name="descriptionfont" description="Blog Description Font"
+type="font"
+default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif" value="normal normal 78% &#39;Trebuchet MS&#39;, Trebuchet, Arial, Verdana, Sans-serif">
+<Variable name="postfooterfont" description="Post Footer Font"
+type="font"
+default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif" value="normal normal 78% &#39;Trebuchet MS&#39;, Trebuchet, Arial, Verdana, Sans-serif">
+*/
+body {
+margin:0;
+padding:0;
+background: url() no-repeat top center;
+font: x-small Verdana, Arial;
+text-align: center;
+color: #515151;
+font-size/* */:/**/small;
+font-size: /**/small;
+}
+Html{
+background:#FFFFFF url(https://sites.google.com/site/placarps2018/xtremecreate/meio-site.png)top repeat-y;
+}
+.alignleft {
+float: left;
+margin:5px 5px 5px 0;
+}
+.alignright {
+float:right;
+margin:5px 0px 5px 5px;
+}
+.alignleft {
+float: left;
+margin:5px 5px 5px 0;
+}
+.alignright {
+float:right;
+margin:5px 0px 5px 5px;
+}
+a:link {
+text-decoration: none;
+color: $mainLinkColor;
+}
+img {
+border:none;
+}
+a:link,
+a:visited {
+color: #000000;
+text-decoration:none;
+}
+a:hover {color:#BEBEBE;
+text-decoration: none;
+}
+a {
+outline: none;
+}
+/* Header
+----------------------------------------------- */
+#header-img {
+background: url(https://sites.google.com/site/placarps2018/xtremecreate/Header.png) no-repeat top center;
+width:1600px;
+height: 391px;
+top: -5px;
+margin-left: -301px;
+position: relative;
+}
+
+#header-wrapper-vitor {
+margin:0;
+padding:0;
+font: x-small Verdana, Arial;
+text-align: center;
+font-size/* */:/**/small;
+font-size: /**/small;
+width:1000px;
+height:0px;
+margin:auto;
+}
+#header-wrapper-vitor h1 {
+position: center;
+top: 0px;
+left: 0px;
+color: #000000;
+margin: 0px;
+padding: 6px;
+font: normal 0px/100% "Comic Sans MS", Arial, sans-serif;
+}
+#header-wrapper-vitor h1 a,
+#header-wrapper-vitor h1 a:visited {
+color: #000000;
+text-decoration: none;
+}
+#header-wrapper-vitor h1 a:hover {
+color: #333333;
+text-decoration: none;
+}
+#header-wrapper-vitor p {
+position: center;
+top: 5px;
+left: 13px;
+color: #333333;
+font: 12px Verdana, Verdana, sans-serif;
+visibility:hidden;
+}
+
+#CURTIR {
+width:100px;
+height:57px;
+display:block;
+position:absolute;
+margin-top: -31px;
+margin-left: 374px;
+}
+#zap {
+width:100px;
+height:20px;
+display:block;
+position:absolute;
+margin-top: -31px;
+margin-left: 185px;
+}
+.me-tp {
+position:relative;
+top: -13px;
+left: 340px;
+font-size: 38px;
+color: #FFF;
+font-family: 'Schoolbell', cursive;
+width: 740px;
+height: 33px;
+}
+#style-m-tp a {
+color: #fff;
+text-decoration: none;
+}
+#style-m-tp a:hover {
+color: #00adef;
+}
+/* MEGATRON CREKONI - COPIA NAO COMEDIA
+----------------------------------------------- */
+
+.pulse-grow {
+position:relative;
+top: 9px;
+left: 338px;
+height: 33px; 
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.pulse-grow:hover, .pulse-grow:focus, .pulse-grow:active {
+  -webkit-animation-name: pulse-grow;
+  animation-name: pulse-grow;
+  -webkit-animation-duration: 0.15s;
+  animation-duration: 0.15s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+/* GLOBO CREKONI - COPIA AI COMEDIA
+----------------------------------------------- */
+.globo-crekoni {
+position:relative;
+top: -55px;
+left: 452px;
+height: 33px; 
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.globo-crekoni:hover, .globo-crekoni:focus, .globo-crekoni:active {
+  -webkit-animation-name: globo-crekoni;
+  animation-name: globo-crekoni;
+  -webkit-animation-duration: 0.15s;
+  animation-duration: 0.15s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+@-webkit-keyframes globo-crekoni {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+
+@keyframes globo-crekoni {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+/* Busca VIROU MENU
+----------------------------------------------- */
+#controla-a-altura-do-menu {
+background: url("") no-repeat scroll 0 0 transparent;
+height: 80px;
+width: 990px;
+margin-top: -130px;
+margin-left: 1px;
+}
+#controla-a-altura-do-menu-pra-baixo {
+background: url("") no-repeat scroll 0 0 transparent;
+height: 80px;
+width: 990px;
+margin-top: -80px;
+margin-left: 1px;
+}
+#fundo-do-menu {
+background: url(https://sites.google.com/site/theenvato/xtreme/fundo%20busca.png) no-repeat top center;
+position: relative; z-index: -100;
+width:901px;
+height:153px;
+margin-top: -110px;
+margin-left:50px;
+}
+#box-menu {
+position: relative;
+width: 800px;
+margin: 0;
+margin-top: 160px;
+margin-left:100px;
+}
+/* VODOO - CREKONI theenvato.blogspot.com */
+.vodoo {
+	position: relative; 
+	height: 50px; 
+	text-align: center;
+}
+.vodoo-container {
+	position: absolute;
+	height: 50px;
+	background: url(https://sites.google.com/site/placarps2018/placar/etet.gif);
+	padding-left: 20px;
+}
+a.vodoo-item {
+	display: block;
+	width: 40px;
+	color: #000;
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	text-decoration: none;
+	font: bold 12px Arial, Helvetica, sans-serif;
+}
+.vodoo-item img {
+	border: none; 
+	margin: 5px 10px 0px; 
+	width: 100%; 
+}
+.vodoo-item span {
+	display: none; 
+	padding-left: 20px;
+}
+/* outttter-wrapper
+----------------------------------------------- */
+#outttter-wrapper {
+width:1000px;
+padding:5px;
+margin:0 auto;
+text-align:left; }
+#main-wrapper {
+width: 540px;
+float: left;
+margin-top: -15px;
+margin-left:7px;
+padding-leftt: 24px;
+overflow: hidden;
+}
+#sidebar-wrapper {
+width: 210px;
+margin-top: 4px;
+float: right;
+word-wrap: break-word;
+}
+.leftsidebar-wrapper {
+width:210px;
+margin-top:4px;
+margin: 5px;
+float: right;
+word-wrap: break-word;
+overflow: hidden;
+}
+
+/* Headings
+----------------------------------------------- */
+h2, h3 {
+margin: 0;
+}
+/* Conteudo */
+#conteudo{
+width:530px;
+float:left;
+margin-left:20px;
+display:inline;
+overflow:hidden;
+}
+.tp-p {
+background: url(https://sites.google.com/site/theenvato/xtreme/topo-post.png) no-repeat scroll center center transparent;
+height: 113px;
+width: 563px;
+margin: 0px 0px 0px 0px;
+margin-left: -10px;
+}
+.titulo-post{
+width:463px;
+margin-left:10px;
+margin-top:10px;
+overflow:hidden;
+padding:-15px 0px 0px 3px;
+}
+.titulo-post span{
+font:11px Tahoma, Arial, Helvitica, sans-serif;
+color:#00BFFF;
+}
+h2.bg-post-blog{
+padding:17px 0 0px 55px;
+height:50px;
+overflow:hidden;
+text-align: left;
+}
+h2.bg-post-blog a{
+font-family: 'Boogaloo', cursive;
+font-weight: normal;
+color:#87CEEB;
+text-shadow:1px 1px #000;
+text-decoration:none;
+}
+h2.bg-post-blog a:hover{
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+-webkit-transition:All .3s ease;
+-moz-transition:All .3s ease;
+-o-transition:All .3s ease;
+text-decoration: none;
+background-color: #000000;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+color: #888;
+text-decoration: none;
+text-transform:capitalize;
+color:#00BFFF;
+text-shadow:1px 1px #000;
+}
+.c-po{
+background:url(https://sites.google.com/site/theenvato/xtreme/meio-post.png) repeat-y;
+padding:0px 40px 0px 26px;
+margin-left:6px;
+font:12px Tahoma, Arial, Helvetica, sans-serif;
+width: 465px;
+}
+.c-po a {
+color:#BEBEBE;
+}
+.c-po a:hover {
+color:#BEBEBE;
+text-decoration:underline;
+font-weight:bold;
+}
+.c-po img {
+border:none;
+}
+.c-po ul li {
+background:url('https://2.bp.blogspot.com/-MmjzDXB7NRs/WpIK4E5ISlI/AAAAAAAAJjk/prvAR_z4QaMpk4f7OV_uyQ0ETrsM9ElGgCLcBGAs/s1600/verde.png') no-repeat 0px 4px;
+display:block;
+text-align:left;
+padding:0px 0px 0px 10px;
+color:#515151;
+}
+.r-p{
+width:530px;
+height:90px;
+margin-left:6px;
+background:url(https://sites.google.com/site/theenvato/xtreme/final-post.png) no-repeat;
+}
+div.date-meta {
+width:170px;
+padding:3px 10px 0 30px;
+float:left;
+overflow:hidden;
+display:inline;
+}
+div.date-meta a{
+font:11px Arial, Helvetica, sans-serif;
+color: #fff;
+}
+div.date-meta{
+font:11px Tahoma, Arial, Helvetica, sans-serif;
+color: #fff;
+}
+div.date-meta span{
+font:bold 11px Tahoma, Arial, Helvetica, sans-serif;
+color: #1E90FF;
+}
+div.date-meta strong{
+font:bold 11px Tahoma, Arial, Helvetica, sans-serif;
+color: #ffffff;
+}
+div.date-meta a:hover{
+color: #1E90FF;
+}
+/* Postador
+----------------------------------------------- */
+div.entry-meta {
+width:170px;
+margin-top: 15px;
+margin-left: -30px;
+padding:40px 5px 0 25px;
+float:left;
+overflow:hidden;
+display:inline;
+}
+div.entry-meta a{
+font:11px Arial, Helvetica, sans-serif;
+color: #000000;
+}
+div.entry-meta{
+font:11px Tahoma, Arial, Helvetica, sans-serif;
+color: #fff;
+}
+div.entry-meta span{
+font:bold 11px Tahoma, Arial, Helvetica, sans-serif;
+color: #fff;
+}
+div.entry-meta strong{
+font:bold 11px Tahoma, Arial, Helvetica, sans-serif;
+color: #000000;
+}
+div.entry-meta a:hover{
+color: #1E90FF;
+}
+/* Gostei Post
+----------------------------------------------- */
+.gostei{
+width:170px;
+padding:5px 10px 0 -5px;
+margin-top: 15px;
+margin-left: -170px;
+float:left;
+overflow:hidden;
+display:inline;
+font:12px Arial, Helvetica, sans-serif;
+color: #fff;
+}
+/* Comments Post
+----------------------------------------------- */
+.coments-rodape{
+width:185px;
+margin-top: 15px;
+margin-left: 18px;
+padding:40px 5px 0 25px;
+float:left;
+overflow:hidden;
+display:inline;
+}
+.coments-rodape a{
+font:12px Arial, Helvetica, sans-serif;
+color: #fff;
+}
+.coments-rodape{
+font:11px Tahoma, Arial, Helvetica, sans-serif;
+color: #ff0000;
+}
+.coments-rodape span{
+font:bold 11px Tahoma, Arial, Helvetica, sans-serif;
+color: #FFFFFF;
+}
+.link-single{
+color:#BEBEBE !important;
+font:bold 11px Tahoma, Arial, Helvetica, sans-serif !important;
+}
+.coments-rodape strong{
+font:bold 11px Tahoma, Arial, Helvetica, sans-serif;
+color: #ffffff;
+}
+.coments-rodape a:hover{
+color:#fff;
+text-shadow:1px 1px #000;
+}
+/* Categorias Post
+----------------------------------------------- */
+.categoria-rodape{
+padding:25px 0px 0 100px;
+margin-top: -42px;
+margin-left: 105px;
+width:176px;
+float:right;
+overflow:hidden;
+display:inline;
+}
+.categoria-rodape a{
+font:bold 12px Arial, Helvetica, sans-serif;
+color: #fff;
+}
+.categoria-rodape{
+font:11px Tahoma, Arial, Helvetica, sans-serif;
+color: #29A2C5;
+}
+.categoria-rodape span{
+font:bold 11px Tahoma, Arial, Helvetica, sans-serif;
+color: #FFFFFF;
+}
+.categoria-rodape strong{
+font:bold 11px Tahoma, Arial, Helvetica, sans-serif;
+color: #ffffff;
+}
+.categoria-rodape a:hover{
+color:#fff;
+text-shadow:1px 1px #000;
+}
+*/
+}
+.dbx-content {
+background: #ffffff url() no-repeat 0 100%;;
+}
+.dbx-content {
+background: #ffffff url() no-repeat 0 100%;;
+}
+/*Blogger Comments Cores*/
+
+#comments{overflow:hidden}
+
+#comments h4{display:inline;padding:10px;line-height:40px}
+
+#comments h4,.comments .comment-header,.comments .comment-thread.inline-thread .comment{position:relative}
+
+#comments h4,.comments .continue a{background:#1E90FF}
+
+#comments h4,.comments .user a,.comments .continue a{font-size:16px}
+
+#comments h4,.comments .continue a{font-weight:normal;color:#fff}
+
+#comments h4:after{content:"";position:absolute;bottom:-10px;left:10px;border-top:10px solid #1E90FF;border-right:20px solid transparent;width:0;height:0;line-height:0}
+
+#comments .avatar-image-container img{border:0}
+
+.comment-thread{color:#111}
+
+.comment-thread a{color:#777}
+
+.comment-thread ol{margin:0 0 20px}
+
+.comment-thread .comment-content a,.comments .user a,.comments .comment-thread.inline-thread .user a{color:#1e05d8}
+
+.comments .avatar-image-container,.comments .avatar-image-container img{width:48px;max-width:48px;height:48px;max-height:48px}
+
+.comments .comment-block,.comments .comments-content .comment-replies,.comments .comment-replybox-single{margin-left:60px}
+
+.comments .comment-block,.comments .comment-thread.inline-thread .comment{border:1px solid #ddd;background:#f9f9f9;padding:10px}
+
+.comments .comments-content .comment{margin:15px 0 0;padding:0;width:100%;line-height:1em}
+
+.comments .comments-content .icon.blog-author{position:absolute;top:-12px;right:-12px;margin:0;background-image: url(http://4.bp.blogspot.com/-awl7HMjMgh4/T89YtINejTI/AAAAAAAAGmQ/XxcTVLKUAtI/s320/picresized_1338990142_comment-author-blue.gif);width:36px;height:36px}
+
+.comments .comments-content .inline-thread{padding:0 0 0 20px}
+
+.comments .comments-content .comment-replies{margin-top:0}
+
+.comments .comment-content{padding:5px 0;line-height:1.4em}
+
+.comments .comment-thread.inline-thread{border-left:1px solid #ddd;background:transparent}
+
+.comments .comment-thread.inline-thread .comment{width:auto}
+
+.comments .comment-thread.inline-thread .comment:after{content:"";position:absolute;top:10px;left:-20px;border-top:1px solid #ddd;width:10px;height:0px}
+
+.comments .comment-thread.inline-thread .comment .comment-block{border:0;background:transparent;padding:0}
+
+.comments .comment-thread.inline-thread .comment-block{margin-left:48px}
+
+.comments .comment-thread.inline-thread .user a{font-size:13px}
+
+.comments .comment-thread.inline-thread .avatar-image-container,.comments .comment-thread.inline-thread .avatar-image-container img{width:36px;max-width:36px;height:36px;max-height:36px}
+
+.comments .continue{border-top:0;width:100%}
+
+.comments .continue a{padding:10px 0;text-align:center}
+
+.comment .continue{display:none}
+
+#comment-editor{width:103%!important}
+
+.comment-form{width:100%;max-width:100%}
+
+/*Blogger Comments Cores*/
+#comments{
+margin-top:50px;
+background: #dcdcdc;
+border-top: 5px solid #323031;
+border-left: 5px solid #323031;
+border-right: 5px solid #323031;
+border-bottom: 5px solid #323031;
+background-image: url();
+background-repeat: no-repeat;
+background-position: top center;
+background-color:#ffffff;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+-khtml-border-radius: 10px;
+padding: 10px 20px 10px 20px;
+}
+#comments h4  {
+padding-left : 0;
+margin : 1em 0;
+font-weight : normal;
+line-height : 1.1em;
+text-transform:uppercase;
+letter-spacing : 0.1em;
+color : none;
+}
+#comments-block {
+padding : 5px 10px;
+margin : 1em 0 1.1em;
+line-height : 1.1em;
+}
+#comments-block dd p {
+margin : 1em 0 1.1em;
+}
+.comment-author {
+margin:.5em 0;
+padding:0 0 0 20px;
+font-weight:bold;
+}
+.comment-body {
+margin:0 0 1.0em;
+padding:0 0 0 20px;
+-moz-border-radius:6px;
+-webkit-border-radius:6px;
+margin: 20px;background: #778899;border:3px solid #66CDAA;padding:8px;
+}
+.comment-body p {
+margin:0 0 .5em;
+}
+.comment-footer {
+margin:0 0 .5em;
+padding:0 0 .75em 20px;
+}
+.comment-footer a:link {
+color: #000000 ;
+}
+.deleted-comment {
+font-style:italic;
+color:gray;
+}. blog-author-comment {
+margin:.25em 0 0;
+}
+.blog-author-comment p {
+margin:0 0 .75em;
+padding:5px 10px;
+border:1px dotted #c0c0c0;
+background:#f5f5f5;
+}
+.links2 {
+display:block;
+float:left;
+}
+.BlogArchive #ArchiveList ul ul li
+.BlogArchive #ArchiveList ul.posts li
+.PageList li.selected a
+}
+/* Sidebar Content
+----------------------------------------------- */
+.sidebar {}
+.sidebar h2{
+background: url(https://sites.google.com/site/theenvato/xtreme/topo-sidebar.png) no-repeat;
+padding:15px 0 30px 10px;
+margin:0;
+font-size:18px;
+color:#87CEEB;
+font-family: 'Boogaloo', cursive;
+font-weight: normal;
+text-shadow:1px 1px #000;
+text-decoration:none;
+}
+.sidebar ul {
+margin:0;
+padding:0;
+list-style:none;
+}
+#sidebar ul li{
+background:url(https://sites.google.com/site/theenvato/img/azulo.png) no-repeat left 2px;
+font:bold 12px Arvo, Tahoma, Helvetica, sans-serif;
+width: 180px;
+margin:0 0 0 -10px;
+padding: 4px 0 0px 20px;
+display: inline-block;
+border-bottom: 1px solid #000;
+-webkit-transition-duration:0.3s;
+-o-transition-duration:0.3s;
+-moz-transition-duration:0.3s;
+}
+#sidebar ul li a{
+color: #000000;
+text-shadow:0px -1px fff;
+}
+#sidebar ul li a:hover{
+color: #fffff;
+text-shadow:0px -1px #aaff48;
+}
+#sidebar ul li:hover{
+background:#FFF url(https://sites.google.com/site/theenvato/img/cinza.png) no-repeat right 2px;
+}
+.sidebar {
+color: #333333;
+line-height:1.3em;
+}
+.sidebar a:hover {
+color:#1E90FF;
+font-weight:bold;
+}
+.sidebar .widget-content {
+background:url(https://sites.google.com/site/theenvato/xtreme/meio-sidebar.png) repeat-y;
+overflow:hidden;
+padding:0 15px 0 15px;
+margin:0 0 0 0px;
+margin-bottom:20px;
+}
+.sidebar .widget {
+padding:10px 0px 5px 0px;
+background:url(https://sites.google.com/site/theenvato/xtreme/final-sidebar.png) no-repeat bottom;
+margin:0px 0px 0px 0px;
+}
+/* Profile
+----------------------------------------------- */
+.profile-img {
+float: left;
+margin-top: 0;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 0;
+padding: 4px;
+border: 1px solid #000000;
+}
+.profile-data {
+margin:0;
+text-transform:uppercase;
+letter-spacing:.1em;
+font-weight: bold;
+line-height: 1.6em;
+font-size: 78%;
+}
+.profile-datablock {
+margin:.5em 0 .5em;
+}
+.profile-textblock {
+margin: 0.5em 0;
+line-height: 1.6em;
+}
+/* Rodape
+----------------------------------------------- */
+#rodape {
+width:1000;
+background:url(https://sites.google.com/site/placarps2018/xtremecreate/footer.png) no-repeat center top;
+clear:both;
+margin-left: 2px;
+height:212px;
+}
+#navbar-iframe {
+height: 0px;
+visibility: hidden;
+display: none;
+}
+#navbar-iframe { height: 0px; visibility: hidden; display: none; }
+#myGallery{
+width: 170px !important;
+height: 200px !important;
+overflow: hidden;
+}
+#main-wrapper div.inline-ad {
+text-align:center;
+margin:30px;
+margin-left:auto;
+margin-right:auto;
+}
+*::-moz-selection {
+background:#000000;  /*---Cor de fundo--*/
+color:#00BFFF;   /*--cor da fonte--*/
+}
+*::selection {
+background:#000000;/*---Cor de fundo--*/
+color:#00BFFF;  /*--cor da fonte--*/
+}
+/*****INICIO TIP****COPIA NUBE********/
+#qTip {
+position:absolute;
+font-size:17px;
+font-family: 'Boogaloo', cursive;
+background:#00BFFF;
+padding:3px 5px;
+display:none;
+border-radius: 3px; -moz-border-radius:3px; -webkit-border-radius:3px;
+opacity:.9;
+border:1px solid #0000CD;
+background:#9d0200 url(https://1.bp.blogspot.com/-1dq-sZZUdRw/WpINh0EjraI/AAAAAAAAJjw/HifDBTaJyGAWqaV0-QEVWCR-Lq1gRQm4ACLcBGAs/s1600/tip.png) repeat-x;
+color:#fff;
+-moz-border-radius: 4px;
+-khtml-border-radius: 4px;
+-webkit-border-radius: 4px;
+text-shadow: 1px 1px 1px #380000;
+}
+/*****FINAL TIP****COPIA NUBE********/
+/*-- (Efeito nos Links - Shadow Xtreme Create)-- */
+a:hover{ color: #000000;
+text-shadow:0 0 .3em#00BFFF;
+-webkit-transition: all .3s;
+-moz-transition: all .3s;
+-o-transition: all .3s;
+-ms-transition: all .3s;}
+/*-- (Efeito nos Links - Shadow Xtreme Create)-- */
+#accordion-teste {
+background:url() no-repeat;
+width:1000px;
+margin: auto;
+height:200px;
+margin-top:-80px;
+}
+/*****INICIO BORDA COMPLETO CREATE************/
+.aZy2 img{margin-right: 0px;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+goog-ms-transition: all 0.3s ease-in-out;
+background-color: #FFFFFF;
+text-align: center;
+border: 1px solid #FFFFFF;
+}
+.aZy2 img:hover{
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+goog-ms-transition: all 0.2s ease-in-out;
+border: 1px solid #1E90FF;
+box-shadow: 0px 0px 10px #1E90FF;
+-moz-box-shadow: 0px 0px 10px #1E90FF;
+-webkit-box-shadow:0px 0px 10px #1E90FF;
+}
+/*****FINAL BORDA COMPLETO CREATE************/
+/*****INICIO BORDA SIDEBAR COMPLETO CREATE************/
+.zlib img{margin-right: 0px;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+goog-ms-transition: all 0.3s ease-in-out;
+background-color: #FFFFFF;
+text-align: center;
+border: 1px solid #000000;
+}
+.zlib img:hover{
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+goog-ms-transition: all 0.2s ease-in-out;
+border: 1px solid #1E90FF;
+box-shadow: 0px 0px 10px #1E90FF;
+-moz-box-shadow: 0px 0px 10px #1E90FF;
+-webkit-box-shadow:0px 0px 10px #1E90FF;
+}
+/*****FINAL BORDA SIDEBAR COMPLETO CREATE************/
+/*******REDES******INICIO*******/
+.social{
+width:280px;
+height:20px;
+display:block;
+position:absolute;
+margin-top:100px;
+margin-left:10px;
+}
+.social a{
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: #2c3e50;
+  color: white;
+  margin: 0 6px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  font-size: 22px;
+}
+.social a:hover{
+  background: #e67e22;
+}
+.social a i{
+  transition: 0.4s all;
+}
+.social a:hover > i{
+  transform: scale(1.6) rotate(25deg);
+}
+
+/*****REDES 3 ICONES COMPLETO CREATE******FINAL******/
+/*****INICIO XAT******/
+#gb {
+position:fixed;
+bottom:-340px;
+z-index:+1000;
+right:240px;
+}
+* html #gb {
+position:relative;
+ }
+.gbtab {
+line-height: 0px;
+height:40px;
+width:200px;
+margin-left: 280px;
+cursor:pointer;
+background:url('https://sites.google.com/site/placarps2018/xtremecreate/xat.png') no-repeat;
+margin-top:0px; }
+.gbcontent { 
+float:left; 
+border:5px solid #000; 
+background:#0065F4; 
+-webkit-border-radius: 15px; 
+border-radius: 20px; 
+-khtml-border-radius: 20px; 
+padding:8px; }
+/*****FIM XAT******/
